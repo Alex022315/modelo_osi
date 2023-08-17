@@ -1,0 +1,44 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para el contenedor de las imágenes de las capas */
+  .contenedor_imagen_capas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para las imágenes de las capas */
+  .contenedor_imagen_capas img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .contenedor_imagen_capas img:hover {
+    transform: scale(1.1);
+  }
+  /* Estilos para las cajas */
+.contenedor_imagen_capas .figura {
+    width: 150px; /* Ancho de las cajas */
+    display: inline-block; /* Hace que las cajas estén una al lado de la otra */
+    margin: 10px; /* Espacio entre las cajas */
+}
+
+.contenedor_imagen_capas .figura .box {
+    width: 150px; /* Mismo ancho que las imágenes */
+    height: 150px; /* Mismo alto que las imágenes */
+    border: 2px dashed #aaa; /* Borde punteado para indicar el área de soltar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
