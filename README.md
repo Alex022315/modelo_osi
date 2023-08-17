@@ -1,6 +1,6 @@
 # Modelo OSI 
 
-![OSI Model](https://www.definicionabc.com/wp-content/uploads/tecnologia/OSI-International-Organization-Standardization-MODELO.jpg)
+<img src="https://www.definicionabc.com/wp-content/uploads/tecnologia/OSI-International-Organization-Standardization-MODELO.jpg" alt="OSI Model" width="300">
 
 Este proyecto tiene como objetivo proporcionar una comprensión clara y concisa del Modelo OSI (Open Systems Interconnection) y su relevancia en las redes de comunicación. El Modelo OSI es una referencia fundamental para entender cómo funcionan las redes de computadoras y cómo los diferentes protocolos interactúan en cada capa.
 
